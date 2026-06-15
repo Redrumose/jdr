@@ -1,16 +1,45 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
+  background: #1a1a1a;
+  color: #d4c29c;
+  font-family: 'Merriweather', serif;
+  margin: 0;
 }
 
-body{
-    background-color: rgb(230, 220, 200);
-    text-align: center;
+header {
+  background: #8b0000;
+  padding: 20px;
+  text-align: center;
 }
 
-h1 {
-    color: brown;
-    text-align: center;
-    border: 50cap;
+nav a {
+  margin: 0 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  background: url('../img/hero.jpg') center/cover;
+  padding: 120px 20px;
+  text-align: center;
+}
+
+.btn {
+  background: #8b0000;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.carte {
+  background: #2a2a2a;
+  padding: 15px;
+  margin: 10px;
+  border-left: 4px solid #8b0000;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
