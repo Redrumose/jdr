@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #1a1a1a url('../img/parchment.jpg') repeat;
+  color: #d4c29c;
+  font-family: 'Merriweather', serif;
+}
+
+header {
+  background: #8b0000;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: 'Cinzel', serif;
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+nav a {
+  margin-left: 15px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  position: relative;
+  background: url('../img/hero.jpg') center/cover no-repeat;
+  height: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  text-align: center;
+  border: 1px solid #d4c29c;
+}
+
+.hero h1 {
+  margin: 0 0 10px;
+}
+
+.hero p {
+  margin: 0 0 20px;
+}
+
+.btn {
+  display: inline-block;
+  background: #8b0000;
+  color: #fff;
+  padding: 8px 18px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #a00000;
+}
+
+main {
+  padding: 20px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.card {
+  background: rgba(0, 0, 0, 0.7);
+  border: 1px solid #d4c29c;
+  padding: 15px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+}
+
+.carte {
+  background: rgba(0, 0, 0, 0.7);
+  border: 1px solid #d4c29c;
+  padding: 15px;
+}
+
+.detail-box {
+  background: rgba(0, 0, 0, 0.7);
+  border: 1px solid #d4c29c;
+  padding: 20px;
+}
+
+.form-box {
+  background: rgba(0, 0, 0, 0.8);
+  border: 1px solid #d4c29c;
+  padding: 20px;
+  width: 320px;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  border-radius: 3px;
+  border: 1px solid #555;
+  background: #2a2a2a;
+  color: #d4c29c;
+}
+
+.notes-list .note {
+  background: rgba(0, 0, 0, 0.7);
+  border: 1px solid #d4c29c;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.hint {
+  font-size: 0.85rem;
+  color: #c0b090;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  font-size: 0.85rem;
+  background: #111;
+  color: #aaa;
+}
