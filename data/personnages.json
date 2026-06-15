@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "nom": "Kael le Rouge",
+    "classe": "Démoniste",
+    "niveau": 7,
+    "description": "Un mage lié à un démon ancien, marqué par un pacte de sang.",
+    "historique": "Ancien érudit de la Tour d'Obsidienne, banni pour pratiques interdites."
+  },
+  {
+    "id": 2,
+    "nom": "Lyra Ombrevent",
+    "classe": "Rôdeuse",
+    "niveau": 5,
+    "description": "Archère silencieuse, experte en pistage dans les forêts maudites.",
+    "historique": "A grandi dans les bois de Brume-Noire, au service d'un ordre secret."
+  }
+]
