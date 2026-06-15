@@ -5,14 +5,27 @@
   <title>Connexion</title>
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
-
 <body>
-  <form id="loginForm" class="form-box">
-    <h2>Connexion</h2>
-    <input type="text" placeholder="Nom d'utilisateur" required>
-    <input type="password" placeholder="Mot de passe" required>
-    <button type="submit">Se connecter</button>
-  </form>
+  <header>
+    <div class="logo">Chroniques du JDR</div>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="login.html">Connexion</a>
+      <a href="personnages.html">Personnages</a>
+      <a href="scenarios.html">Scénarios</a>
+      <a href="notes.html">Notes</a>
+    </nav>
+  </header>
+
+  <main class="centered">
+    <form id="loginForm" class="form-box">
+      <h2>Connexion</h2>
+      <input type="text" id="username" placeholder="Nom d'utilisateur" required>
+      <input type="password" id="password" placeholder="Mot de passe" required>
+      <button type="submit" class="btn">Se connecter</button>
+      <p class="hint">Démo : aucune vérification réelle, simple maquette.</p>
+    </form>
+  </main>
 
   <script src="assets/js/app.js"></script>
 </body>
