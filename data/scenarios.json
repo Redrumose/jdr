@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "titre": "Les Cendres de l'Obélisque",
+    "campagne": "Chroniques de l'Est Brisé",
+    "statut": "En cours",
+    "synopsis": "Les aventuriers enquêtent sur un obélisque ancien qui corrompt la région.",
+    "notes_mj": "Prévoir une forte opposition démoniaque, ambiance sombre et oppressante."
+  },
+  {
+    "id": 2,
+    "titre": "La Marche des Ombres",
+    "campagne": "Chroniques de l'Est Brisé",
+    "statut": "Prévu",
+    "synopsis": "Une armée d'ombres avance vers la capitale, les héros doivent découvrir leur origine.",
+    "notes_mj": "Mettre l'accent sur l'enquête et les dilemmes moraux."
+  }
+]
